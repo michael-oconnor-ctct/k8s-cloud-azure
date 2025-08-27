@@ -7,7 +7,7 @@ variable "suffix" {
 variable "resource_group_name" {
 	description = "Resource group name"
 	type        = string
-	default     = "rg-trimble-007"
+	default     = "rg-trimble-017"
 }
 
 variable "create_rg" {
@@ -25,31 +25,31 @@ variable "prefix" {
 variable "aks_name" {
 	description = "AKS name"
 	type        = string
-	default     = "aks-cluster-007"
+	default     = "aks-cluster-017"
 }
 
 variable "vnet_address_space" {
 	description = "VNet CIDR"
 	type        = string
-	default     = "10.74.7.0/24"
+	default     = "10.74.17.0/24"
 }
 
 variable "subnet_address_prefix" {
   description = "Subnet CIDR"
   type        = string
-  default     = "10.74.7.0/26"
+  default     = "10.74.17.0/26"
 }
 
 variable "dns_service_ip" {
 	description = "DNS service IP for AKS"
 	type        = string
-	default     = "10.74.7.33"
+	default     = "10.74.17.33"
 }
 
 variable "service_cidr" {
 	description = "Service CIDR for AKS"
 	type        = string
-	default     = "10.74.7.32/26"
+	default     = "10.74.17.32/26"
 }
 
 variable "nodepool_name" {
